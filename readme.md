@@ -1,3 +1,9 @@
+## Схема базы данных SQL 
+
+![](https://github.com/Iusar/SQL_2/blob/main/21.08.2021_database_diagram.png)
+
+## Код SQL для создания базы данных
+
 ```sql
 CREATE TABLE IF NOT EXISTS Исполнители (
 	id_artist SERIAL PRIMARY key,
