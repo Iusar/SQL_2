@@ -1,4 +1,4 @@
-'''sql
+```sql
 CREATE TABLE IF NOT EXISTS Исполнители (
 	id_artist SERIAL PRIMARY key,
 	Имя VARCHAR(50) NOT NULL unique,
@@ -21,4 +21,4 @@ CREATE TABLE IF NOT EXISTS Жанры (
 	Название_жанра VARCHAR(100)  NOT NULL UNIQUE
 );
 ALTER TABLE Исполнители ADD CONSTRAINT id_genre FOREIGN KEY (id_genre) REFERENCES Жанры(id_genre);
-'''
+```
